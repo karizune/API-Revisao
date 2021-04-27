@@ -12,5 +12,4 @@ routes.post("/", ValidationRules(), validate, (request, response) => {
   return response.status(201).json({ clienteRetorno });
 });
 
-
 module.exports = routes;
