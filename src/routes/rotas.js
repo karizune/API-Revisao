@@ -1,7 +1,7 @@
 const { Router, request } = require("express");
-const { validate } = require("../Validators/validators.js");
-const { ValidationRules } = require("../Validators/ValidationRules.js");
-const Service = require("../services/service.js");
+const { validate } = require("../Validators/validators");
+const { ValidationRules } = require("../validators/ValidationRules");
+const Service = require("../services/service");
 
 const routes = Router();
 
