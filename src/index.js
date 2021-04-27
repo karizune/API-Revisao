@@ -10,6 +10,6 @@ app.use(express.json());
 
 app.use("/rota", rotas);
 
-module.exports = app.listen(3000, () => {
+app.listen(3000, () => {
   console.log(cli.cyanBright("servidor rodando na porta 3000"));
 });
